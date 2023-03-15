@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SectorChartView">
+
+        <attr name="scv_out_radius" format="dimension" />
+        <attr name="scv_inner_radius" format="dimension" />
+        <attr name="scv_anim_duration" format="integer" />
+        <attr name="scv_anim_type" format="enum">
+            <enum name="sweep_all" value="1" />
+            <enum name="sweep_single" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>
